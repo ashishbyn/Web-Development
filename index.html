@@ -1,67 +1,57 @@
- <html>
-<head>
-<meta charset="utf-8">
- <meta name="viewport" content="width.device-width">
- <meta name="description" content="web design,affordable and professional web design">
- <meta name="keywords" content="web design,affordable web design,professional web design">
- <meta name="author" content="Brad Traversy">
- <title> Acme Web Design | welcome</title>
-<link rel="stylesheet" href="style.css" type="text/css">
-</head>
-<body>
-<header>
-<div class ="container">
-<div id="branding">
-<h1> <span class="highlight">Acme</span> Web Design</h1>
-</div>
-<nav>
-<ul>
-<li class="current"><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="services.html">Services</a></li>
-</ul>
-</nav>
-</div>
-</header>
-<section id="showcase">
-<div class="container">
-<h1>Afordable Professional Web Design</h1>
-<p></p>
-</div>
-</section>
+<HTML>
+<HEAD>
+<TITLE> Form Methods</TITLE>
+</HEAD>
+<BODY bgcolor="cyan">
+
+<FORM action="mailto:edude@patni.com" name="ab" method="post"
+enctype="multipart/form-data">
+
+<P>
+
+<LABEL>Enter the password
+<INPUT type="password" name="USERNAME" size ="20" value="abc"
+tabindex="3"></LABEL>
+
+<INPUT type="hidden" name="coname" value="PCS">
+
+Enter your surname :
+<INPUT type="text" name="surname" SIZE ="20" readonly value=”Sukuru
+” tabindex="2" maxlength="30">
+
+<BR><BR>
+Address : <TEXTAREA name="addr" Rows="5" cols="40" tabindex="0"
+accesskey="A">Enter ur address </TEXTAREA>
+<BR><BR>
 
 
-<section id="newsletter">
-<div class="container">
-<h1>Subscribe to our Newsletter</h1>
-<form>
-<input type="email" placeholder="Enter Email...">
-<button type="submit" class="button_1">Subscribe</button>
-</form>
-</div>
-</section>
+Select the training programs attended : <BR>
+<INPUT type="checkbox" name="s-cobol"> COBOL
+<INPUT type="checkbox" name="s-idms" checked> IDMS
+<INPUT type="checkbox" name="s-java"> Java
+<BR><BR>
 
+Select the group you belong to :
+<SPACE type="VERTICAL" size="15">
+<INPUT type="radio" name="s-grp" value="grp1"> Group 1
+<INPUT type="radio" name="s-grp" value="grp2" checked> Group 2
+<INPUT type="radio" name="s-grp" value="grp3"> Group 3
+<INPUT type="radio" name="s-grp" value="oth"> Others
+<BR><BR>
 
-<section id="boxes">
-<div class="container">
-<div class="box">
-<img src="html.png">
-<h3>HTML Markup</h3>
-<p></p>
-</div>
+Which training program would you like to attend ?
+<SELECT Name="pref">
+<OPTION value="JS">JavaScript
+<OPTION value="CORBA">CORBA
+<OPTION value="VB6">Visual Basic 6
+</SELECT>
+</P>
 
-<div class="box">
-<img src="css.png">
-<h3>CSS3 Styling</h3>
-<p></p>
-</div>
-
-<div class="box">
-<img src="images.jpg">
-<h3>Graphic Design</h3>
-<p></p>
-</div>
-</div>
-</section>
-</body>
-</html>   
+<INPUT type="file" name="fnm" size=15 value="fonts.html">
+<BR>
+<INPUT type="button" name="but" value="Exit">
+<INPUT type="Submit" Value="Save" name="s-but">
+<INPUT type="reset" Value="Reset">
+</FORM>
+</BODY>
+</HTML>

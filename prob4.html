@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Using External Script file in Html Document</title>
+<script type="text/javascript">
+document.write("<h2>This text is display from the script tag embedded in the Head tag of the document</h1>")
+</script>
+<hr>
+<script src="Hello.js">
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+document.write("This text is display from the script tag embedded in the Head tag of the document")
+</script>
+<hr>
+<p>The actual script is in external script file called"Hello.js"</p>
+
+<script>
+sayHello();
+</script>
+<hr>
+
+</body>
+</html>
